@@ -16,10 +16,10 @@ INSERT INTO people (name) VALUES ('John McCollum');
 DELETE FROM people WHERE name = 'Harvey Wheaton';
 -- SELECT name FROM people;
 
-INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy2', 2017, '24.00');
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy2', 2017, '24:00');
 -- SELECT * FROM movies;
 
-UPDATE movies SET show_time = '21.30' WHERE title = 'Guardians of the Galaxy';
+UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 -- SELECT * FROM movies;
 
 
